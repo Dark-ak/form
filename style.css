@@ -2,18 +2,25 @@ html, body {
     margin: 0;
     height: 100%;
     display: flex;
-    overflow: hidden; 
     background-color:#222f35;
+    overflow: hidden;
 }
 
 .first{
+    top: 0;
+    position: sticky;
     background-image: url(image/andre-benz-lQTf_EUo6Fk-unsplash.jpg);
     background-size: 450px 686px;
+    height: 680px;
 
 }
 
+.style{
+    height: 2000px;
+}
+
 .second{
-    background-color: rgba(0, 0, 0, 0.4)    ;
+    background-color: rgba(0, 0, 0, 0.4);
     margin-top: 150px;
     display: inline-flex;
     align-items: center;
